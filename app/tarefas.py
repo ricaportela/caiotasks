@@ -1,7 +1,7 @@
 import datetime
 
 
-class Tarefas(object):
+class Tarefa(object):
     """
     docstring for Tarefas.
     """

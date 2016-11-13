@@ -15,9 +15,9 @@ These are the four main pilars of OO
 - Heritance
 - Polimorfism
 
-The diference between OO and procedural programming its about performance. 
-Of course the procedural its more fast than OO, becasue the procedural they 
-have a fredom to chose the hardware.
+# Abstraction #
+
+
 
 
 
