@@ -2,23 +2,23 @@ class Tarefas():
     """
     docstring for Tarefas.
     """
+    
     STATUS = ('pra fazer', 'fazendo', 'feita')
 
     def __init__(self, description, status, responsable, date_create, date_update):
         # self representa a instancia do object
-        self.description = description
-        self.status = status
-        self.responsable = responsable
-        self.date_create = date_create
-        self.date_update = date_update
+        self.description = description  
+        if status not in self.STATUS:
+           raise ValueError("%s is not a valid status" % title)
 
-    def validastatus(self, status):
-        if self.status not in self.STATUS:
-            raise ValueError("%s is not a valid status" % status)
+        self.status      = status      
+        self.responsable = responsable 
+        self.date_create = date_create 
+        self.date_update = date_update
 
     def addTarefas():
         pass
-
+    
     def updTarefas():
         pass
 
@@ -27,3 +27,10 @@ class Tarefas():
 
     def listTarefas():
         pass
+
+  
+
+     
+
+    
+        
