@@ -1,5 +1,9 @@
 Self Study Object Orientation Programming
 =========================================
+### Initial Setup ###
+1. Make a new virtualenv: ``python3.5 -m venv .venv``
+2. Activate the virtualenv: ``source env/bin/activate``
+3. Install: ``pip install -r requirements.txt``
 
 Getting Started
 ---------------
@@ -17,9 +21,8 @@ have a fredom to chose the hardware.
 
 
 
-### Initial Setup ###
-1. Make a new virtualenv: ``python3.5 -m venv .venv``
-2. Activate the virtualenv: ``source env/bin/activate``
-3. Install: ``pip install -r requirements.txt``
+
+
+
 
 
