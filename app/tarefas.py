@@ -1,4 +1,7 @@
-class Tarefas():
+import datetime
+
+
+class Tarefas(object):
     """
     docstring for Tarefas.
     """
@@ -12,18 +15,12 @@ class Tarefas():
         self.date_create = date_create
         self.date_update = date_update
 
-    def validastatus(self, status):
-        if self.status not in self.STATUS:
-            raise ValueError("%s is not a valid status" % status)
+    def validastatus(txtstatus):
+        if txtstatus not in self.STATUS:
+            raise ValueError("%s is not a valid status" % txtstatus)
 
-    def addTarefas():
-        pass
-
-    def updTarefas():
-        pass
-
-    def delTarefas():
-        pass
-
-    def listTarefas():
-        pass
+hoje = datetime.date.today().strftime('%x')
+tf1 = Tarefas("tarefa1", "feita", "ricardo", hoje, "01/05/2016")
+print("Responsavel...: %s" % tf1.responsable)
+print("Data Criacao..: %s" % tf1.date_create)
+print("Status........: %s" % tf1.status)
