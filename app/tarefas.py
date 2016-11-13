@@ -21,6 +21,7 @@ class Tarefas(object):
 
 hoje = datetime.date.today().strftime('%x')
 tf1 = Tarefas("tarefa1", "feita", "ricardo", hoje, "01/05/2016")
+print("Descrição.....: %s" % tf1.description)
 print("Responsavel...: %s" % tf1.responsable)
 print("Data Criacao..: %s" % tf1.date_create)
 print("Status........: %s" % tf1.status)
